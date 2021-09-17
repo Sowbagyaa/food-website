@@ -14,7 +14,7 @@
 
 body{
    margin: 0 auto !important ; 
-   max-width: 1240px;
+   max-width: 1440px;
 
   
 }
@@ -66,7 +66,7 @@ body{
     flex-direction: column;
     padding: 73px 217.5px 223px;
     justify-content: center;
-    max-width: 1240px;
+    max-width: 1440px;
   }
   .hero-content{
       margin-top:50px;
@@ -373,7 +373,7 @@ body{
     }
     /* div.footer-wrapper{
         position: absolute;
-        width: 1240px;
+        width: 1440px;
         height: 200px;
         top: 4393.9px;
         background: #FFFFFF;
