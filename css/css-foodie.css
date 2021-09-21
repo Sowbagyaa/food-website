@@ -860,6 +860,9 @@ section div.hero-banner {
     .footer-btn-wrapper {
         flex-direction: row;
         margin: 54px 0 ;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     
     }
     #ftr-playstore-btn {
