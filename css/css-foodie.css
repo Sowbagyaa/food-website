@@ -712,7 +712,7 @@ section div.hero-banner {
         display: flex;
         flex-direction: column;
         position: relative;
-        width: 100%;
+        width: 80%;
         margin: 0 auto;
     }
 
