@@ -2,151 +2,140 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Bella Olonjie</title>
-	<link rel="stylesheet" href="css/food-delivery-css.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-	<script src="./js/bootstrap.bundle.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-		crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella Olonjie</title>
+    <link rel="stylesheet" href="css/css-foodie.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
+
 </head>
 
 <body>
-	<div class="wrapper ">
-		<header>
-			<div class="nav-wrapper">
-				<nav class="navbar navbar-expand-lg navbar-light container-fluid">
-					<div class="container-fluid p-0">
-						<a class="navbar-brand m-0" href="#">
-							<div class="logo-wrapper img-fluid">
-								<img src="images/logo.svg" alt="logo">
-							</div>
-						</a>
-						<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-							data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-							aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
-						</button>
-						<div class="collapse navbar-collapse nav-align" id="navbarNav">
-							<ul class="navbar-nav">
-								<li class="nav-item">
-									<a class="nav-link active" aria-current="page" href="#">Home</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#">Products</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#">Faq</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#">Contact</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</nav>
-			</div>
-		</header>
 
-		<div class="hero-header hero-inner ">
-			<div class="hero-content ">
-				<h3>Food app</h3>
-				<h1>Why stay hungry when you can order from Bella Onojie</h1>
-				<h4>Download the bella onoje’s food app now on</h4>
-				<div class="button-wrapper">
-					<button id="btn-playstore" class="btn btn-primary btn-rounded ">Play store</button>
-					<button id="btn-appstore" class="btn btn-outline-primary btn-rounded ">App store</button>
-				</div>
-			</div>
-		</div>
+    <header class="header-wrapper">
+        <nav>
+            <div class="header-logo">
+                <img src="images/logo.svg" alt="logo">
+            </div>
+    
+            <input type="checkbox" name="click" id="click">
+            <label for="click" class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </label>
+    
+            <div class="navigation">
+                <span><a class="active" href="#">Home</a></span>
+                <span><a href="#">Product</a></span>
+                <span><a href="#">Faq</a></span>
+                <span><a href="#">Contact</a></span>
+            </div>
+        </nav>
+    </header>
 
-		<div class="container-fluid">
-			<div class="container-fluid">
-				<div class="app-view">
-					<div class="image-wrapper">
-						<img id="view1" src="images/app-view-1.png" alt="Get Started">
-						<img id="view2" src="images/app-view-2.png" alt="Menu">
-					</div>
-				</div>
+    <section>
+        <div class="hero-banner">
+            <div class="hero-content-wrapper">
+                <h3 id="h3">Food App</h3>
+                <h1 id="h1"> Why stay hungry when you can order from Bella Onojie</h1>
+                <h4 id="h4">Download the bella onoje’s food app now on</h4>
 
-				<div class="partition">
-					<hr class="line">
-					<div class="desc">How the app works</div>
-				</div>
+                <div class="hero-buttons">
+                    <button id="playstore-btn" class="active">Playstore</button>
+                    <button id="appstore-btn">Appstore</button>
+                </div>
+            </div>
+        </div>
 
-				<div class="steps-container">
-					<div class="step1">
-						<div class="login-img-wrapper">
-							<img src="images/login.png" alt="login">
-						</div>
-						<div class="step1-content">
-							<h3>Create an account</h3>
-							<h2>Create/login to an existing account to get started</h2>
-							<h4>An account is created with your email and a desired password</h4>
-						</div>
-					</div>
-					<div class="step2">
-						<div class="step2-content step1-content">
-							<h3>Explore varieties</h3>
-							<h2>Shop for your favorites
-								meal as e dey hot.</h2>
-							<h4>Shop for your favorite meals or drinks
-								and enjoy while doing it.</h4>
-						</div>
-						<div class="menu-image-wrap">
-							<img src="images/payment.png" alt="login">
-						</div>
+    </section>
 
-					</div>
 
-					<div class="step3">
-						<div class="pay-image-wrap">
-							<img src="images/payment.png" alt="login">
-						</div>
-						<div class="step1-content">
-							<h3>Checkout</h3>
-							<h2>When you done check out
-								and get it delivered.</h2>
-							<h4>When you done check out and get it
-								delivered with ease.</h4>
-						</div>
-					</div>
+    <div class="container-fluid">
 
-				</div>
-			</div>
-		</div>
-		<footer>
-			<div class="hero-light">
-				<div class="hero-light-content">
-					<h2>Download the app now.</h2>
-					<h4>Available on your favorite store. Start your premium experience now</h4>
+        <div class="app-view">
+            <div class="img-wrapper">
+                <img id="view1" src="images/app-view-1.png" alt="Get Started">
+                <img id="view2" src="images/app-view-2.png" alt="Menu">
+            </div>
+        </div>
 
-					<div class="button-wrapper2">
-						<button id="playstore-btn2" class="active " >Playstore</button>
-						<button id="appstore-btn2" >App store</button>
-					</div>
-				</div>
-			</div>
-			<div class="footer-lower">
-				<div class="ftr-logo-wrapper">
-					<img src="images/logo.svg" alt="footer logo">
-				</div>
-				<div class="ftr-icon">
-					<i class="bi bi-facebook"></i>
-					<i class="bi bi-instagram"></i>
-					<i class="bi bi-twitter"></i>
-				</div>
-				<div class="copyrights">Copywright 2020 Bella Onojie.com</div>
-			</div>
-		</footer>
+        <div class="partition-hr">
+            <h3>How the app works</h3>
+        </div>
 
-	</div>
+        <div class="steps-container">
+            <div class="steps-img">
+                <img src="images/login.png" alt="login">
+            </div>
+            <div class="step">
+                <h3>Create an account</h3>
+                <h2>Create/login to an existing account to get started</h2>
+                <h4>An account is created with your email
+                and a desired password
+                </h4>
+            </div>
+        </div>
+        <div class="steps-container-rev">
+            <div class="step">
+                <h3>Explore varieties</h3>
+                <h2>Shop for your favorites
+                    meal as e dey hot.
+                </h2>
+                <h4>
+                    Shop for your favorite meals or drinks
+                    and enjoy while doing it.
+                </h4>
+            </div>
+            <div class="steps-img">
+                <img src="images/payment.png" alt="login">
+            </div>
+        </div>
+        <div class="steps-container">
+            <div class="steps-img">
+                <img src="images/payment.png" alt="login">
+            </div>
+            <div class="step">
+                <h3>Checkout</h3>
+                <h2>When you done check out
+                    and get it delivered.
+                </h2>
+                <h4>
+                    When you done check out and get it
+                    delivered with ease.
+                </h4>
+            </div>
+        </div>
+    </div>
 
+    <footer>
+        <div class="footer-wrapper">
+            <div class="hero-light">
+                <h2>Download the app now.</h2>
+                <h4>Available on your favorite store. Start your premium experience now</h4>
+                <div class="footer-btn-wrapper">
+                    <button id="ftr-playstore-btn" class="btn btn-primary active">Playstore</button>
+                    <button id="ftr-appstore-btn" class="btn btn-outline-primary">App store</button>
+                </div>
+            </div>
+            <div class="footer-lower">
+                <div class="footer-logo-wrapper">
+                    <img src="images/logo.svg" alt="footer logo">
+                </div>
+                <div class="footer-icons">
+                    <i class="bi bi-facebook icon"></i>
+					<i class="bi bi-instagram icon"></i>
+					<i class="bi bi-twitter icon"></i>
+                </div>
+                <span class="copyrights">Copyright 2020 Bella Onojie.com</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/8ade5e9773.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
