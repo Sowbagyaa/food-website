@@ -858,7 +858,7 @@ section div.hero-banner {
     }
 
     .footer-btn-wrapper {
-        flex-direction: column;
+        flex-direction: row;
         margin: 54px 0 ;
     
     }
